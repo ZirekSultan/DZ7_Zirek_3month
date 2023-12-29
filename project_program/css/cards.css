@@ -1,0 +1,30 @@
+.cards {
+    padding-top: 100px;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.card {
+    padding: 10px;
+    width: 400px;
+    border: 3px solid #DE2547FF;
+
+    background-color: #de9999;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card p {
+    color: white;
+    text-align: center;
+}
